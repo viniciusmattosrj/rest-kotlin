@@ -1,14 +1,20 @@
-package app.car.cap01.domain
+package app.car.cap02.domain
 
 import java.time.LocalDate
-import javax.lang.model.element.Name
 import javax.persistence.Entity
+import javax.persistence.GeneratedValue
 import javax.persistence.Id
 
 @Entity
 data class Driver(
     @Id
+    @GeneratedValue
     var id: Long? = null,
     val name: String,
     val birthDate: LocalDate
+)
+
+data class PatchDriver(
+    val name: String?,
+    val birthDate: LocalDate?
 )

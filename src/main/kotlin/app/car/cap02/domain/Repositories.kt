@@ -1,4 +1,4 @@
-package app.car.cap01.domain
+package app.car.cap02.domain
 
 import org.springframework.data.jpa.repository.JpaRepository
 

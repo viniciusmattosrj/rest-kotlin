@@ -1,11 +1,11 @@
-package app.car.cap01
+package app.car.cap02
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Cap01Application
+class Cap02Application
 
 fun main(args: Array<String>) {
-	runApplication<Cap01Application>(*args)
+	runApplication<Cap02Application>(*args)
 }
