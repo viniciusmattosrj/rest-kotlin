@@ -1,4 +1,4 @@
-package app.car.cap02.domain
+package app.car.cap03.domain
 
 import java.time.LocalDate
 import javax.persistence.Entity
